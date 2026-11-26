@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "primary_metric": "NDCG@20",
+  "selection_winner": "Playlist-kNN",
+  "split_counts": {
+    "train": 40013,
+    "validation": 12698,
+    "test": 12698
+  },
+  "cold_test_interactions": 5623,
+  "test_interactions": 12698,
+  "test_catalogue_size": 36203,
+  "ndcg20_mean_confidence_intervals": {
+    "Popularity": [
+      0.008474456849450064,
+      0.013394434090491507
+    ],
+    "Playlist-kNN": [
+      0.06389145903715011,
+      0.07869212718550618
+    ],
+    "PureSVD": [
+      0.05226161519921349,
+      0.065380199608443
+    ],
+    "Audio centroid": [
+      0.006324519424149873,
+      0.011940947640966908
+    ]
+  },
+  "dataset_sha256": "11533e4997668e7791c093bbcc63fb20ed820e8c4bbd80b7026fedaf1fb8d946",
+  "environment": {
+    "python": "3.14.4",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "selected": {
+    "Popularity": {
+      "model": "Popularity",
+      "parameters": "{}",
+      "fit_seconds": 0.0003250997979193926,
+      "rank_seconds": 0.420873099938035,
+      "NDCG@20": 0.008317954734712767,
+      "Recall@20": 0.009218303746014614,
+      "Precision@20": 0.005550000000000001
+    },
+    "Playlist-kNN": {
+      "model": "Playlist-kNN",
+      "parameters": "{\"neighbors\": 50, \"power\": 1}",
+      "fit_seconds": 0.014576800167560577,
+      "rank_seconds": 0.6504371999762952,
+      "NDCG@20": 0.05658350310131444,
+      "Recall@20": 0.059179667240297607,
+      "Precision@20": 0.03395
+    },
+    "PureSVD": {
+      "model": "PureSVD",
+      "parameters": "{\"rank\": 64}",
+      "fit_seconds": 0.25956729985773563,
+      "rank_seconds": 0.3694625999778509,
+      "NDCG@20": 0.04202491664416945,
+      "Recall@20": 0.04276688784376782,
+      "Precision@20": 0.02745
+    },
+    "Audio centroid": {
+      "model": "Audio centroid",
+      "parameters": "{\"features\": \"full\"}",
+      "fit_seconds": 0.03390670008957386,
+      "rank_seconds": 0.25131630012765527,
+      "NDCG@20": 0.009321851104511301,
+      "Recall@20": 0.011304258088630992,
+      "Precision@20": 0.00525
+    }
+  }
+}

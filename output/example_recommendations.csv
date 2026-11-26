@@ -1,0 +1,41 @@
+model,rank,track,artist,test_hit
+Popularity,1,HUMBLE.,Kendrick Lamar,0
+Popularity,2,Ignition - Remix,R. Kelly,0
+Popularity,3,Bounce Back,Big Sean,0
+Popularity,4,Broccoli (feat. Lil Yachty),DRAM,0
+Popularity,5,Bad and Boujee (feat. Lil Uzi Vert),Migos,0
+Popularity,6,XO TOUR Llif3,Lil Uzi Vert,0
+Popularity,7,iSpy (feat. Lil Yachty),KYLE,0
+Popularity,8,Location,Khalid,0
+Popularity,9,DNA.,Kendrick Lamar,0
+Popularity,10,Congratulations,Post Malone,0
+Playlist-kNN,1,Radioactive,Imagine Dragons,0
+Playlist-kNN,2,We Are Young (feat. Janelle Monáe) - feat. Janelle Monae,fun.,0
+Playlist-kNN,3,The Middle,Jimmy Eat World,0
+Playlist-kNN,4,Sail,AWOLNATION,0
+Playlist-kNN,5,Wonderwall - Remastered,Oasis,0
+Playlist-kNN,6,Let Her Go,Passenger,0
+Playlist-kNN,7,Drops of Jupiter,Train,0
+Playlist-kNN,8,Demons,Imagine Dragons,1
+Playlist-kNN,9,Get Lucky - Radio Edit,Daft Punk,0
+Playlist-kNN,10,Cold Water (feat. Justin Bieber & MØ),Major Lazer,0
+PureSVD,1,Cold Water (feat. Justin Bieber & MØ),Major Lazer,0
+PureSVD,2,The Middle,Jimmy Eat World,0
+PureSVD,3,Radioactive,Imagine Dragons,0
+PureSVD,4,Get Lucky - Radio Edit,Daft Punk,0
+PureSVD,5,Drops of Jupiter,Train,0
+PureSVD,6,Howlin' For You,The Black Keys,0
+PureSVD,7,Simple Song,The Shins,0
+PureSVD,8,Wonderwall - Remastered,Oasis,0
+PureSVD,9,24K Magic,Bruno Mars,0
+PureSVD,10,Sail,AWOLNATION,0
+Audio centroid,1,Downhearted,Molly Burch,0
+Audio centroid,2,Moon Child,The F-16's,0
+Audio centroid,3,Wildewoman,Lucius,0
+Audio centroid,4,All That It Ever Was,Turnover,0
+Audio centroid,5,Warm Blindness & A Cool Breeze,Calvin Love,0
+Audio centroid,6,La County Blues,The Band Of Heathens,0
+Audio centroid,7,Into Focus,Panama Wedding,0
+Audio centroid,8,Prop Me Up Beside The Jukebox (If I Die),Joe Diffie,0
+Audio centroid,9,Might As Well Get Stoned,Chris Stapleton,0
+Audio centroid,10,'Cause I'm A Man,Tame Impala,0

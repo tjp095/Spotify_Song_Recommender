@@ -1,0 +1,777 @@
+experiment,pid,start,model,target,rank,track_support,same_last_artist,target_in_history
+sensitivity_later,974,5,Popularity,7991,32032,0,False,False
+sensitivity_later,974,5,Last artist,7991,32036,0,False,False
+sensitivity_later,974,5,Item cosine,7991,32032,0,False,False
+sensitivity_later,974,5,Markov,7991,32032,0,False,False
+sensitivity_later,974,5,Audio similarity,7991,1504,0,False,False
+sensitivity_later,974,5,History,7991,32033,0,False,False
+sensitivity_later,974,5,History + artist,7991,34573,0,False,False
+sensitivity_later,974,5,History + artist + audio,7991,6006,0,False,False
+sensitivity_later,611,5,Popularity,20923,33979,0,True,False
+sensitivity_later,611,5,Last artist,20923,4,0,True,False
+sensitivity_later,611,5,Item cosine,20923,33979,0,True,False
+sensitivity_later,611,5,Markov,20923,33979,0,True,False
+sensitivity_later,611,5,Audio similarity,20923,15753,0,True,False
+sensitivity_later,611,5,History,20923,33981,0,True,False
+sensitivity_later,611,5,History + artist,20923,26,0,True,False
+sensitivity_later,611,5,History + artist + audio,20923,42,0,True,False
+sensitivity_later,583,5,Popularity,33546,29149,1,False,False
+sensitivity_later,583,5,Last artist,33546,29162,1,False,False
+sensitivity_later,583,5,Item cosine,33546,29157,1,False,False
+sensitivity_later,583,5,Markov,33546,29149,1,False,False
+sensitivity_later,583,5,Audio similarity,33546,4970,1,False,False
+sensitivity_later,583,5,History,33546,29160,1,False,False
+sensitivity_later,583,5,History + artist,33546,28693,1,False,False
+sensitivity_later,583,5,History + artist + audio,33546,8859,1,False,False
+sensitivity_later,948,5,Popularity,19145,19847,1,False,False
+sensitivity_later,948,5,Last artist,19145,19848,1,False,False
+sensitivity_later,948,5,Item cosine,19145,19874,1,False,False
+sensitivity_later,948,5,Markov,19145,19847,1,False,False
+sensitivity_later,948,5,Audio similarity,19145,15571,1,False,False
+sensitivity_later,948,5,History,19145,19877,1,False,False
+sensitivity_later,948,5,History + artist,19145,30491,1,False,False
+sensitivity_later,948,5,History + artist + audio,19145,18666,1,False,False
+sensitivity_later,69,5,Popularity,19551,20101,1,True,False
+sensitivity_later,69,5,Last artist,19551,27,1,True,False
+sensitivity_later,69,5,Item cosine,19551,78,1,True,False
+sensitivity_later,69,5,Markov,19551,2,1,True,False
+sensitivity_later,69,5,Audio similarity,19551,295,1,True,False
+sensitivity_later,69,5,History,19551,4,1,True,False
+sensitivity_later,69,5,History + artist,19551,9,1,True,False
+sensitivity_later,69,5,History + artist + audio,19551,3,1,True,False
+sensitivity_later,410,5,Popularity,5928,4477,2,True,False
+sensitivity_later,410,5,Last artist,5928,17,2,True,False
+sensitivity_later,410,5,Item cosine,5928,387,2,True,False
+sensitivity_later,410,5,Markov,5928,4479,2,True,False
+sensitivity_later,410,5,Audio similarity,5928,6196,2,True,False
+sensitivity_later,410,5,History,5928,391,2,True,False
+sensitivity_later,410,5,History + artist,5928,11,2,True,False
+sensitivity_later,410,5,History + artist + audio,5928,14,2,True,False
+sensitivity_later,689,5,Popularity,7121,31903,0,False,False
+sensitivity_later,689,5,Last artist,7121,31904,0,False,False
+sensitivity_later,689,5,Item cosine,7121,31903,0,False,False
+sensitivity_later,689,5,Markov,7121,31903,0,False,False
+sensitivity_later,689,5,Audio similarity,7121,160,0,False,False
+sensitivity_later,689,5,History,7121,31906,0,False,False
+sensitivity_later,689,5,History + artist,7121,31305,0,False,False
+sensitivity_later,689,5,History + artist + audio,7121,902,0,False,False
+sensitivity_later,637,5,Popularity,28071,34982,0,False,False
+sensitivity_later,637,5,Last artist,28071,34982,0,False,False
+sensitivity_later,637,5,Item cosine,28071,34982,0,False,False
+sensitivity_later,637,5,Markov,28071,34982,0,False,False
+sensitivity_later,637,5,Audio similarity,28071,4506,0,False,False
+sensitivity_later,637,5,History,28071,34982,0,False,False
+sensitivity_later,637,5,History + artist,28071,32459,0,False,False
+sensitivity_later,637,5,History + artist + audio,28071,14535,0,False,False
+sensitivity_later,177,5,Popularity,31961,613,9,False,False
+sensitivity_later,177,5,Last artist,31961,647,9,False,False
+sensitivity_later,177,5,Item cosine,31961,1092,9,False,False
+sensitivity_later,177,5,Markov,31961,625,9,False,False
+sensitivity_later,177,5,Audio similarity,31961,17708,9,False,False
+sensitivity_later,177,5,History,31961,1057,9,False,False
+sensitivity_later,177,5,History + artist,31961,622,9,False,False
+sensitivity_later,177,5,History + artist + audio,31961,1896,9,False,False
+sensitivity_later,736,5,Popularity,6718,1081,6,False,False
+sensitivity_later,736,5,Last artist,6718,1095,6,False,False
+sensitivity_later,736,5,Item cosine,6718,2434,6,False,False
+sensitivity_later,736,5,Markov,6718,1084,6,False,False
+sensitivity_later,736,5,Audio similarity,6718,4192,6,False,False
+sensitivity_later,736,5,History,6718,2434,6,False,False
+sensitivity_later,736,5,History + artist,6718,3255,6,False,False
+sensitivity_later,736,5,History + artist + audio,6718,2121,6,False,False
+sensitivity_later,982,5,Popularity,31405,35484,0,False,False
+sensitivity_later,982,5,Last artist,31405,35484,0,False,False
+sensitivity_later,982,5,Item cosine,31405,35484,0,False,False
+sensitivity_later,982,5,Markov,31405,35484,0,False,False
+sensitivity_later,982,5,Audio similarity,31405,7327,0,False,False
+sensitivity_later,982,5,History,31405,35484,0,False,False
+sensitivity_later,982,5,History + artist,31405,32787,0,False,False
+sensitivity_later,982,5,History + artist + audio,31405,9265,0,False,False
+sensitivity_later,117,5,Popularity,33871,35853,0,False,False
+sensitivity_later,117,5,Last artist,33871,35853,0,False,False
+sensitivity_later,117,5,Item cosine,33871,35853,0,False,False
+sensitivity_later,117,5,Markov,33871,35853,0,False,False
+sensitivity_later,117,5,Audio similarity,33871,34356,0,False,False
+sensitivity_later,117,5,History,33871,35853,0,False,False
+sensitivity_later,117,5,History + artist,33871,35560,0,False,False
+sensitivity_later,117,5,History + artist + audio,33871,33868,0,False,False
+sensitivity_later,586,5,Popularity,2396,4129,2,False,False
+sensitivity_later,586,5,Last artist,2396,4146,2,False,False
+sensitivity_later,586,5,Item cosine,2396,5383,2,False,False
+sensitivity_later,586,5,Markov,2396,4130,2,False,False
+sensitivity_later,586,5,Audio similarity,2396,19353,2,False,False
+sensitivity_later,586,5,History,2396,5383,2,False,False
+sensitivity_later,586,5,History + artist,2396,5964,2,False,False
+sensitivity_later,586,5,History + artist + audio,2396,16433,2,False,False
+sensitivity_later,372,5,Popularity,32777,35684,0,True,False
+sensitivity_later,372,5,Last artist,32777,26,0,True,False
+sensitivity_later,372,5,Item cosine,32777,35684,0,True,False
+sensitivity_later,372,5,Markov,32777,35684,0,True,False
+sensitivity_later,372,5,Audio similarity,32777,35523,0,True,False
+sensitivity_later,372,5,History,32777,35684,0,True,False
+sensitivity_later,372,5,History + artist,32777,23,0,True,False
+sensitivity_later,372,5,History + artist + audio,32777,25,0,True,False
+sensitivity_later,10,5,Popularity,27859,34955,0,False,False
+sensitivity_later,10,5,Last artist,27859,34957,0,False,False
+sensitivity_later,10,5,Item cosine,27859,34955,0,False,False
+sensitivity_later,10,5,Markov,27859,34955,0,False,False
+sensitivity_later,10,5,Audio similarity,27859,5432,0,False,False
+sensitivity_later,10,5,History,27859,34955,0,False,False
+sensitivity_later,10,5,History + artist,27859,3897,0,False,False
+sensitivity_later,10,5,History + artist + audio,27859,2308,0,False,False
+sensitivity_later,628,5,Popularity,29265,26392,1,False,False
+sensitivity_later,628,5,Last artist,29265,26396,1,False,False
+sensitivity_later,628,5,Item cosine,29265,26511,1,False,False
+sensitivity_later,628,5,Markov,29265,26393,1,False,False
+sensitivity_later,628,5,Audio similarity,29265,346,1,False,False
+sensitivity_later,628,5,History,29265,26511,1,False,False
+sensitivity_later,628,5,History + artist,29265,31185,1,False,False
+sensitivity_later,628,5,History + artist + audio,29265,3566,1,False,False
+sensitivity_later,927,5,Popularity,5456,31688,0,False,False
+sensitivity_later,927,5,Last artist,5456,31709,0,False,False
+sensitivity_later,927,5,Item cosine,5456,31688,0,False,False
+sensitivity_later,927,5,Markov,5456,31688,0,False,False
+sensitivity_later,927,5,Audio similarity,5456,254,0,False,False
+sensitivity_later,927,5,History,5456,31691,0,False,False
+sensitivity_later,927,5,History + artist,5456,33910,0,False,False
+sensitivity_later,927,5,History + artist + audio,5456,1286,0,False,False
+sensitivity_later,669,5,Popularity,33219,35754,0,False,False
+sensitivity_later,669,5,Last artist,33219,35754,0,False,False
+sensitivity_later,669,5,Item cosine,33219,35754,0,False,False
+sensitivity_later,669,5,Markov,33219,35754,0,False,False
+sensitivity_later,669,5,Audio similarity,33219,1747,0,False,False
+sensitivity_later,669,5,History,33219,35754,0,False,False
+sensitivity_later,669,5,History + artist,33219,34168,0,False,False
+sensitivity_later,669,5,History + artist + audio,33219,4954,0,False,False
+sensitivity_later,63,5,Popularity,11606,14965,1,True,False
+sensitivity_later,63,5,Last artist,11606,25,1,True,False
+sensitivity_later,63,5,Item cosine,11606,653,1,True,False
+sensitivity_later,63,5,Markov,11606,14966,1,True,False
+sensitivity_later,63,5,Audio similarity,11606,2528,1,True,False
+sensitivity_later,63,5,History,11606,559,1,True,False
+sensitivity_later,63,5,History + artist,11606,29,1,True,False
+sensitivity_later,63,5,History + artist + audio,11606,20,1,True,False
+sensitivity_later,735,5,Popularity,22038,21710,1,True,False
+sensitivity_later,735,5,Last artist,22038,22,1,True,False
+sensitivity_later,735,5,Item cosine,22038,21780,1,True,False
+sensitivity_later,735,5,Markov,22038,21710,1,True,False
+sensitivity_later,735,5,Audio similarity,22038,647,1,True,False
+sensitivity_later,735,5,History,22038,21783,1,True,False
+sensitivity_later,735,5,History + artist,22038,23,1,True,False
+sensitivity_later,735,5,History + artist + audio,22038,15,1,True,False
+sensitivity_later,500,5,Popularity,25230,34586,0,True,False
+sensitivity_later,500,5,Last artist,25230,26,0,True,False
+sensitivity_later,500,5,Item cosine,25230,34586,0,True,False
+sensitivity_later,500,5,Markov,25230,34586,0,True,False
+sensitivity_later,500,5,Audio similarity,25230,15582,0,True,False
+sensitivity_later,500,5,History,25230,34587,0,True,False
+sensitivity_later,500,5,History + artist,25230,24,0,True,False
+sensitivity_later,500,5,History + artist + audio,25230,8,0,True,False
+sensitivity_later,1,5,Popularity,9800,13766,1,False,False
+sensitivity_later,1,5,Last artist,9800,13768,1,False,False
+sensitivity_later,1,5,Item cosine,9800,13766,1,False,False
+sensitivity_later,1,5,Markov,9800,13766,1,False,False
+sensitivity_later,1,5,Audio similarity,9800,9138,1,False,False
+sensitivity_later,1,5,History,9800,13771,1,False,False
+sensitivity_later,1,5,History + artist,9800,29285,1,False,False
+sensitivity_later,1,5,History + artist + audio,9800,8046,1,False,False
+sensitivity_later,42,5,Popularity,15977,33217,0,False,False
+sensitivity_later,42,5,Last artist,15977,33218,0,False,False
+sensitivity_later,42,5,Item cosine,15977,33217,0,False,False
+sensitivity_later,42,5,Markov,15977,33217,0,False,False
+sensitivity_later,42,5,Audio similarity,15977,5497,0,False,False
+sensitivity_later,42,5,History,15977,33219,0,False,False
+sensitivity_later,42,5,History + artist,15977,33169,0,False,False
+sensitivity_later,42,5,History + artist + audio,15977,8497,0,False,False
+sensitivity_later,634,5,Popularity,11030,329,11,False,False
+sensitivity_later,634,5,Last artist,11030,341,11,False,False
+sensitivity_later,634,5,Item cosine,11030,754,11,False,False
+sensitivity_later,634,5,Markov,11030,335,11,False,False
+sensitivity_later,634,5,Audio similarity,11030,2377,11,False,False
+sensitivity_later,634,5,History,11030,579,11,False,False
+sensitivity_later,634,5,History + artist,11030,275,11,False,False
+sensitivity_later,634,5,History + artist + audio,11030,196,11,False,False
+sensitivity_later,529,5,Popularity,13514,119,16,False,False
+sensitivity_later,529,5,Last artist,13514,136,16,False,False
+sensitivity_later,529,5,Item cosine,13514,951,16,False,False
+sensitivity_later,529,5,Markov,13514,121,16,False,False
+sensitivity_later,529,5,Audio similarity,13514,4701,16,False,False
+sensitivity_later,529,5,History,13514,955,16,False,False
+sensitivity_later,529,5,History + artist,13514,490,16,False,False
+sensitivity_later,529,5,History + artist + audio,13514,333,16,False,False
+sensitivity_later,167,5,Popularity,17907,280,12,False,False
+sensitivity_later,167,5,Last artist,17907,314,12,False,False
+sensitivity_later,167,5,Item cosine,17907,527,12,False,False
+sensitivity_later,167,5,Markov,17907,289,12,False,False
+sensitivity_later,167,5,Audio similarity,17907,1630,12,False,False
+sensitivity_later,167,5,History,17907,520,12,False,False
+sensitivity_later,167,5,History + artist,17907,463,12,False,False
+sensitivity_later,167,5,History + artist + audio,17907,349,12,False,False
+sensitivity_later,809,5,Popularity,31737,35527,0,True,False
+sensitivity_later,809,5,Last artist,31737,14,0,True,False
+sensitivity_later,809,5,Item cosine,31737,35527,0,True,False
+sensitivity_later,809,5,Markov,31737,35527,0,True,False
+sensitivity_later,809,5,Audio similarity,31737,3472,0,True,False
+sensitivity_later,809,5,History,31737,35527,0,True,False
+sensitivity_later,809,5,History + artist,31737,99,0,True,False
+sensitivity_later,809,5,History + artist + audio,31737,78,0,True,False
+sensitivity_later,821,5,Popularity,25368,34610,0,False,False
+sensitivity_later,821,5,Last artist,25368,34612,0,False,False
+sensitivity_later,821,5,Item cosine,25368,34610,0,False,False
+sensitivity_later,821,5,Markov,25368,34610,0,False,False
+sensitivity_later,821,5,Audio similarity,25368,32248,0,False,False
+sensitivity_later,821,5,History,25368,34611,0,False,False
+sensitivity_later,821,5,History + artist,25368,33367,0,False,False
+sensitivity_later,821,5,History + artist + audio,25368,34800,0,False,False
+sensitivity_later,76,5,Popularity,14379,16766,1,False,False
+sensitivity_later,76,5,Last artist,14379,16766,1,False,False
+sensitivity_later,76,5,Item cosine,14379,107,1,False,False
+sensitivity_later,76,5,Markov,14379,5,1,False,False
+sensitivity_later,76,5,Audio similarity,14379,4060,1,False,False
+sensitivity_later,76,5,History,14379,25,1,False,False
+sensitivity_later,76,5,History + artist,14379,41,1,False,False
+sensitivity_later,76,5,History + artist + audio,14379,27,1,False,False
+sensitivity_later,313,5,Popularity,4511,4325,2,True,False
+sensitivity_later,313,5,Last artist,4511,4,2,True,False
+sensitivity_later,313,5,Item cosine,4511,4835,2,True,False
+sensitivity_later,313,5,Markov,4511,4326,2,True,False
+sensitivity_later,313,5,Audio similarity,4511,8584,2,True,False
+sensitivity_later,313,5,History,4511,4836,2,True,False
+sensitivity_later,313,5,History + artist,4511,22,2,True,False
+sensitivity_later,313,5,History + artist + audio,4511,28,2,True,False
+sensitivity_later,296,5,Popularity,26001,356,11,False,False
+sensitivity_later,296,5,Last artist,26001,365,11,False,False
+sensitivity_later,296,5,Item cosine,26001,2316,11,False,False
+sensitivity_later,296,5,Markov,26001,356,11,False,False
+sensitivity_later,296,5,Audio similarity,26001,15198,11,False,False
+sensitivity_later,296,5,History,26001,2322,11,False,False
+sensitivity_later,296,5,History + artist,26001,4624,11,False,False
+sensitivity_later,296,5,History + artist + audio,26001,6810,11,False,False
+sensitivity_later,502,5,Popularity,10478,94,17,True,False
+sensitivity_later,502,5,Last artist,10478,4,17,True,False
+sensitivity_later,502,5,Item cosine,10478,1405,17,True,False
+sensitivity_later,502,5,Markov,10478,104,17,True,False
+sensitivity_later,502,5,Audio similarity,10478,5199,17,True,False
+sensitivity_later,502,5,History,10478,1436,17,True,False
+sensitivity_later,502,5,History + artist,10478,79,17,True,False
+sensitivity_later,502,5,History + artist + audio,10478,87,17,True,False
+sensitivity_later,490,5,Popularity,7659,31978,0,True,False
+sensitivity_later,490,5,Last artist,7659,8,0,True,False
+sensitivity_later,490,5,Item cosine,7659,31978,0,True,False
+sensitivity_later,490,5,Markov,7659,31978,0,True,False
+sensitivity_later,490,5,Audio similarity,7659,4210,0,True,False
+sensitivity_later,490,5,History,7659,31979,0,True,False
+sensitivity_later,490,5,History + artist,7659,18,0,True,False
+sensitivity_later,490,5,History + artist + audio,7659,8,0,True,False
+sensitivity_later,720,5,Popularity,12698,3003,3,True,False
+sensitivity_later,720,5,Last artist,12698,2,3,True,False
+sensitivity_later,720,5,Item cosine,12698,3751,3,True,False
+sensitivity_later,720,5,Markov,12698,3004,3,True,False
+sensitivity_later,720,5,Audio similarity,12698,2192,3,True,False
+sensitivity_later,720,5,History,12698,3751,3,True,False
+sensitivity_later,720,5,History + artist,12698,13,3,True,False
+sensitivity_later,720,5,History + artist + audio,12698,11,3,True,False
+sensitivity_later,837,5,Popularity,25153,34573,0,False,False
+sensitivity_later,837,5,Last artist,25153,34573,0,False,False
+sensitivity_later,837,5,Item cosine,25153,34573,0,False,False
+sensitivity_later,837,5,Markov,25153,34573,0,False,False
+sensitivity_later,837,5,Audio similarity,25153,282,0,False,False
+sensitivity_later,837,5,History,25153,34574,0,False,False
+sensitivity_later,837,5,History + artist,25153,32233,0,False,False
+sensitivity_later,837,5,History + artist + audio,25153,520,0,False,False
+sensitivity_later,543,5,Popularity,12109,32651,0,True,False
+sensitivity_later,543,5,Last artist,12109,7,0,True,False
+sensitivity_later,543,5,Item cosine,12109,32651,0,True,False
+sensitivity_later,543,5,Markov,12109,32651,0,True,False
+sensitivity_later,543,5,Audio similarity,12109,13045,0,True,False
+sensitivity_later,543,5,History,12109,32654,0,True,False
+sensitivity_later,543,5,History + artist,12109,5,0,True,False
+sensitivity_later,543,5,History + artist + audio,12109,10,0,True,False
+sensitivity_later,641,5,Popularity,24238,1226,6,False,False
+sensitivity_later,641,5,Last artist,24238,1237,6,False,False
+sensitivity_later,641,5,Item cosine,24238,107,6,False,False
+sensitivity_later,641,5,Markov,24238,1229,6,False,False
+sensitivity_later,641,5,Audio similarity,24238,12550,6,False,False
+sensitivity_later,641,5,History,24238,13,6,False,False
+sensitivity_later,641,5,History + artist,24238,56,6,False,False
+sensitivity_later,641,5,History + artist + audio,24238,48,6,False,False
+sensitivity_later,939,5,Popularity,1296,4022,2,False,False
+sensitivity_later,939,5,Last artist,1296,4045,2,False,False
+sensitivity_later,939,5,Item cosine,1296,4679,2,False,False
+sensitivity_later,939,5,Markov,1296,4024,2,False,False
+sensitivity_later,939,5,Audio similarity,1296,5438,2,False,False
+sensitivity_later,939,5,History,1296,4682,2,False,False
+sensitivity_later,939,5,History + artist,1296,5790,2,False,False
+sensitivity_later,939,5,History + artist + audio,1296,8032,2,False,False
+sensitivity_later,617,5,Popularity,11809,32605,0,True,False
+sensitivity_later,617,5,Last artist,11809,7,0,True,False
+sensitivity_later,617,5,Item cosine,11809,32605,0,True,False
+sensitivity_later,617,5,Markov,11809,32605,0,True,False
+sensitivity_later,617,5,Audio similarity,11809,349,0,True,False
+sensitivity_later,617,5,History,11809,32608,0,True,False
+sensitivity_later,617,5,History + artist,11809,6,0,True,False
+sensitivity_later,617,5,History + artist + audio,11809,4,0,True,False
+sensitivity_later,290,5,Popularity,10068,32362,0,True,False
+sensitivity_later,290,5,Last artist,10068,4,0,True,False
+sensitivity_later,290,5,Item cosine,10068,32362,0,True,False
+sensitivity_later,290,5,Markov,10068,32362,0,True,False
+sensitivity_later,290,5,Audio similarity,10068,256,0,True,False
+sensitivity_later,290,5,History,10068,32365,0,True,False
+sensitivity_later,290,5,History + artist,10068,3,0,True,False
+sensitivity_later,290,5,History + artist + audio,10068,5,0,True,False
+sensitivity_later,779,5,Popularity,8619,32131,0,False,False
+sensitivity_later,779,5,Last artist,8619,32135,0,False,False
+sensitivity_later,779,5,Item cosine,8619,32131,0,False,False
+sensitivity_later,779,5,Markov,8619,32131,0,False,False
+sensitivity_later,779,5,Audio similarity,8619,65,0,False,False
+sensitivity_later,779,5,History,8619,32134,0,False,False
+sensitivity_later,779,5,History + artist,8619,9,0,False,False
+sensitivity_later,779,5,History + artist + audio,8619,9,0,False,False
+sensitivity_later,910,5,Popularity,30721,35371,0,True,False
+sensitivity_later,910,5,Last artist,30721,25,0,True,False
+sensitivity_later,910,5,Item cosine,30721,35371,0,True,False
+sensitivity_later,910,5,Markov,30721,35371,0,True,False
+sensitivity_later,910,5,Audio similarity,30721,2001,0,True,False
+sensitivity_later,910,5,History,30721,35371,0,True,False
+sensitivity_later,910,5,History + artist,30721,20,0,True,False
+sensitivity_later,910,5,History + artist + audio,30721,5,0,True,False
+sensitivity_later,212,5,Popularity,17028,18438,1,False,False
+sensitivity_later,212,5,Last artist,17028,18440,1,False,False
+sensitivity_later,212,5,Item cosine,17028,18564,1,False,False
+sensitivity_later,212,5,Markov,17028,18438,1,False,False
+sensitivity_later,212,5,Audio similarity,17028,167,1,False,False
+sensitivity_later,212,5,History,17028,18565,1,False,False
+sensitivity_later,212,5,History + artist,17028,1326,1,False,False
+sensitivity_later,212,5,History + artist + audio,17028,463,1,False,False
+sensitivity_later,555,5,Popularity,34831,29965,1,False,False
+sensitivity_later,555,5,Last artist,34831,29966,1,False,False
+sensitivity_later,555,5,Item cosine,34831,29965,1,False,False
+sensitivity_later,555,5,Markov,34831,29965,1,False,False
+sensitivity_later,555,5,Audio similarity,34831,21198,1,False,False
+sensitivity_later,555,5,History,34831,29970,1,False,False
+sensitivity_later,555,5,History + artist,34831,27362,1,False,False
+sensitivity_later,555,5,History + artist + audio,34831,21545,1,False,False
+sensitivity_later,967,5,Popularity,20991,5901,2,True,False
+sensitivity_later,967,5,Last artist,20991,6,2,True,False
+sensitivity_later,967,5,Item cosine,20991,364,2,True,False
+sensitivity_later,967,5,Markov,20991,5902,2,True,False
+sensitivity_later,967,5,Audio similarity,20991,5341,2,True,False
+sensitivity_later,967,5,History,20991,325,2,True,False
+sensitivity_later,967,5,History + artist,20991,16,2,True,False
+sensitivity_later,967,5,History + artist + audio,20991,19,2,True,False
+sensitivity_later,672,5,Popularity,33008,35719,0,True,False
+sensitivity_later,672,5,Last artist,33008,24,0,True,False
+sensitivity_later,672,5,Item cosine,33008,35719,0,True,False
+sensitivity_later,672,5,Markov,33008,35719,0,True,False
+sensitivity_later,672,5,Audio similarity,33008,403,0,True,False
+sensitivity_later,672,5,History,33008,35719,0,True,False
+sensitivity_later,672,5,History + artist,33008,19,0,True,False
+sensitivity_later,672,5,History + artist + audio,33008,4,0,True,False
+sensitivity_later,317,5,Popularity,5266,31663,0,False,False
+sensitivity_later,317,5,Last artist,5266,31665,0,False,False
+sensitivity_later,317,5,Item cosine,5266,31663,0,False,False
+sensitivity_later,317,5,Markov,5266,31663,0,False,False
+sensitivity_later,317,5,Audio similarity,5266,61,0,False,False
+sensitivity_later,317,5,History,5266,31668,0,False,False
+sensitivity_later,317,5,History + artist,5266,31158,0,False,False
+sensitivity_later,317,5,History + artist + audio,5266,454,0,False,False
+sensitivity_later,57,5,Popularity,12299,272,12,False,False
+sensitivity_later,57,5,Last artist,12299,341,12,False,False
+sensitivity_later,57,5,Item cosine,12299,2326,12,False,False
+sensitivity_later,57,5,Markov,12299,278,12,False,False
+sensitivity_later,57,5,Audio similarity,12299,6213,12,False,False
+sensitivity_later,57,5,History,12299,2327,12,False,False
+sensitivity_later,57,5,History + artist,12299,5244,12,False,False
+sensitivity_later,57,5,History + artist + audio,12299,5412,12,False,False
+sensitivity_later,791,5,Popularity,6875,516,9,False,False
+sensitivity_later,791,5,Last artist,6875,533,9,False,False
+sensitivity_later,791,5,Item cosine,6875,957,9,False,False
+sensitivity_later,791,5,Markov,6875,6,9,False,False
+sensitivity_later,791,5,Audio similarity,6875,4193,9,False,False
+sensitivity_later,791,5,History,6875,23,9,False,False
+sensitivity_later,791,5,History + artist,6875,69,9,False,False
+sensitivity_later,791,5,History + artist + audio,6875,46,9,False,False
+sensitivity_later,535,5,Popularity,957,3987,2,False,False
+sensitivity_later,535,5,Last artist,957,3996,2,False,False
+sensitivity_later,535,5,Item cosine,957,824,2,False,False
+sensitivity_later,535,5,Markov,957,3987,2,False,False
+sensitivity_later,535,5,Audio similarity,957,548,2,False,False
+sensitivity_later,535,5,History,957,832,2,False,False
+sensitivity_later,535,5,History + artist,957,1698,2,False,False
+sensitivity_later,535,5,History + artist + audio,957,620,2,False,False
+sensitivity_later,932,5,Popularity,5108,1395,5,False,False
+sensitivity_later,932,5,Last artist,5108,1425,5,False,False
+sensitivity_later,932,5,Item cosine,5108,1760,5,False,False
+sensitivity_later,932,5,Markov,5108,1399,5,False,False
+sensitivity_later,932,5,Audio similarity,5108,21711,5,False,False
+sensitivity_later,932,5,History,5108,1704,5,False,False
+sensitivity_later,932,5,History + artist,5108,1353,5,False,False
+sensitivity_later,932,5,History + artist + audio,5108,5627,5,False,False
+sensitivity_later,272,5,Popularity,36118,36194,0,False,False
+sensitivity_later,272,5,Last artist,36118,36194,0,False,False
+sensitivity_later,272,5,Item cosine,36118,36194,0,False,False
+sensitivity_later,272,5,Markov,36118,36194,0,False,False
+sensitivity_later,272,5,Audio similarity,36118,9966,0,False,False
+sensitivity_later,272,5,History,36118,36194,0,False,False
+sensitivity_later,272,5,History + artist,36118,33649,0,False,False
+sensitivity_later,272,5,History + artist + audio,36118,12126,0,False,False
+sensitivity_later,15,5,Popularity,23696,2240,4,False,False
+sensitivity_later,15,5,Last artist,23696,2259,4,False,False
+sensitivity_later,15,5,Item cosine,23696,1,4,False,False
+sensitivity_later,15,5,Markov,23696,2241,4,False,False
+sensitivity_later,15,5,Audio similarity,23696,22001,4,False,False
+sensitivity_later,15,5,History,23696,5,4,False,False
+sensitivity_later,15,5,History + artist,23696,19,4,False,False
+sensitivity_later,15,5,History + artist + audio,23696,42,4,False,False
+sensitivity_later,503,5,Popularity,3850,4268,2,False,False
+sensitivity_later,503,5,Last artist,3850,4301,2,False,False
+sensitivity_later,503,5,Item cosine,3850,4482,2,False,False
+sensitivity_later,503,5,Markov,3850,4268,2,False,False
+sensitivity_later,503,5,Audio similarity,3850,18069,2,False,False
+sensitivity_later,503,5,History,3850,4484,2,False,False
+sensitivity_later,503,5,History + artist,3850,531,2,False,False
+sensitivity_later,503,5,History + artist + audio,3850,946,2,False,False
+sensitivity_later,828,5,Popularity,22862,34264,0,True,False
+sensitivity_later,828,5,Last artist,22862,35,0,True,False
+sensitivity_later,828,5,Item cosine,22862,34264,0,True,False
+sensitivity_later,828,5,Markov,22862,34264,0,True,False
+sensitivity_later,828,5,Audio similarity,22862,673,0,True,False
+sensitivity_later,828,5,History,22862,34264,0,True,False
+sensitivity_later,828,5,History + artist,22862,54,0,True,False
+sensitivity_later,828,5,History + artist + audio,22862,23,0,True,False
+sensitivity_later,621,5,Popularity,8052,117,16,False,False
+sensitivity_later,621,5,Last artist,8052,123,16,False,False
+sensitivity_later,621,5,Item cosine,8052,2342,16,False,False
+sensitivity_later,621,5,Markov,8052,123,16,False,False
+sensitivity_later,621,5,Audio similarity,8052,27918,16,False,False
+sensitivity_later,621,5,History,8052,2357,16,False,False
+sensitivity_later,621,5,History + artist,8052,392,16,False,False
+sensitivity_later,621,5,History + artist + audio,8052,663,16,False,False
+sensitivity_later,137,5,Popularity,33294,199,14,False,False
+sensitivity_later,137,5,Last artist,33294,245,14,False,False
+sensitivity_later,137,5,Item cosine,33294,1124,14,False,False
+sensitivity_later,137,5,Markov,33294,206,14,False,False
+sensitivity_later,137,5,Audio similarity,33294,9684,14,False,False
+sensitivity_later,137,5,History,33294,1127,14,False,False
+sensitivity_later,137,5,History + artist,33294,704,14,False,False
+sensitivity_later,137,5,History + artist + audio,33294,2335,14,False,False
+sensitivity_later,702,5,Popularity,13654,16289,1,False,False
+sensitivity_later,702,5,Last artist,13654,16290,1,False,False
+sensitivity_later,702,5,Item cosine,13654,67,1,False,False
+sensitivity_later,702,5,Markov,13654,16289,1,False,False
+sensitivity_later,702,5,Audio similarity,13654,18190,1,False,False
+sensitivity_later,702,5,History,13654,78,1,False,False
+sensitivity_later,702,5,History + artist,13654,102,1,False,False
+sensitivity_later,702,5,History + artist + audio,13654,582,1,False,False
+sensitivity_later,287,5,Popularity,28737,26050,1,False,False
+sensitivity_later,287,5,Last artist,28737,26053,1,False,False
+sensitivity_later,287,5,Item cosine,28737,26132,1,False,False
+sensitivity_later,287,5,Markov,28737,26050,1,False,False
+sensitivity_later,287,5,Audio similarity,28737,4757,1,False,False
+sensitivity_later,287,5,History,28737,26135,1,False,False
+sensitivity_later,287,5,History + artist,28737,14588,1,False,False
+sensitivity_later,287,5,History + artist + audio,28737,4368,1,False,False
+sensitivity_later,528,5,Popularity,7531,31959,0,True,False
+sensitivity_later,528,5,Last artist,7531,4,0,True,False
+sensitivity_later,528,5,Item cosine,7531,31959,0,True,False
+sensitivity_later,528,5,Markov,7531,31959,0,True,False
+sensitivity_later,528,5,Audio similarity,7531,384,0,True,False
+sensitivity_later,528,5,History,7531,31963,0,True,False
+sensitivity_later,528,5,History + artist,7531,11,0,True,False
+sensitivity_later,528,5,History + artist + audio,7531,7,0,True,False
+sensitivity_later,300,5,Popularity,33777,29300,1,True,False
+sensitivity_later,300,5,Last artist,33777,14,1,True,False
+sensitivity_later,300,5,Item cosine,33777,81,1,True,False
+sensitivity_later,300,5,Markov,33777,1,1,True,False
+sensitivity_later,300,5,Audio similarity,33777,466,1,True,False
+sensitivity_later,300,5,History,33777,5,1,True,False
+sensitivity_later,300,5,History + artist,33777,9,1,True,False
+sensitivity_later,300,5,History + artist + audio,33777,2,1,True,False
+sensitivity_later,752,5,Popularity,33597,164,15,False,False
+sensitivity_later,752,5,Last artist,33597,187,15,False,False
+sensitivity_later,752,5,Item cosine,33597,1483,15,False,False
+sensitivity_later,752,5,Markov,33597,174,15,False,False
+sensitivity_later,752,5,Audio similarity,33597,7981,15,False,False
+sensitivity_later,752,5,History,33597,1632,15,False,False
+sensitivity_later,752,5,History + artist,33597,4078,15,False,False
+sensitivity_later,752,5,History + artist + audio,33597,2688,15,False,False
+sensitivity_later,622,5,Popularity,4029,31472,0,False,False
+sensitivity_later,622,5,Last artist,4029,31472,0,False,False
+sensitivity_later,622,5,Item cosine,4029,31472,0,False,False
+sensitivity_later,622,5,Markov,4029,31472,0,False,False
+sensitivity_later,622,5,Audio similarity,4029,24324,0,False,False
+sensitivity_later,622,5,History,4029,31472,0,False,False
+sensitivity_later,622,5,History + artist,4029,31114,0,False,False
+sensitivity_later,622,5,History + artist + audio,4029,20358,0,False,False
+sensitivity_later,943,5,Popularity,18778,33633,0,False,False
+sensitivity_later,943,5,Last artist,18778,33635,0,False,False
+sensitivity_later,943,5,Item cosine,18778,33633,0,False,False
+sensitivity_later,943,5,Markov,18778,33633,0,False,False
+sensitivity_later,943,5,Audio similarity,18778,2915,0,False,False
+sensitivity_later,943,5,History,18778,33634,0,False,False
+sensitivity_later,943,5,History + artist,18778,31951,0,False,False
+sensitivity_later,943,5,History + artist + audio,18778,5781,0,False,False
+sensitivity_later,195,5,Popularity,5204,31654,0,True,False
+sensitivity_later,195,5,Last artist,5204,2,0,True,False
+sensitivity_later,195,5,Item cosine,5204,31654,0,True,False
+sensitivity_later,195,5,Markov,5204,31654,0,True,False
+sensitivity_later,195,5,Audio similarity,5204,22825,0,True,False
+sensitivity_later,195,5,History,5204,31657,0,True,False
+sensitivity_later,195,5,History + artist,5204,5,0,True,False
+sensitivity_later,195,5,History + artist + audio,5204,7,0,True,False
+sensitivity_later,34,5,Popularity,6421,173,14,False,False
+sensitivity_later,34,5,Last artist,6421,176,14,False,False
+sensitivity_later,34,5,Item cosine,6421,153,14,False,False
+sensitivity_later,34,5,Markov,6421,173,14,False,False
+sensitivity_later,34,5,Audio similarity,6421,13270,14,False,False
+sensitivity_later,34,5,History,6421,169,14,False,False
+sensitivity_later,34,5,History + artist,6421,130,14,False,False
+sensitivity_later,34,5,History + artist + audio,6421,284,14,False,False
+sensitivity_later,286,5,Popularity,2843,815,7,True,False
+sensitivity_later,286,5,Last artist,2843,3,7,True,False
+sensitivity_later,286,5,Item cosine,2843,163,7,True,False
+sensitivity_later,286,5,Markov,2843,818,7,True,False
+sensitivity_later,286,5,Audio similarity,2843,166,7,True,False
+sensitivity_later,286,5,History,2843,196,7,True,False
+sensitivity_later,286,5,History + artist,2843,22,7,True,False
+sensitivity_later,286,5,History + artist + audio,2843,8,7,True,False
+sensitivity_later,314,5,Popularity,30852,35392,0,False,False
+sensitivity_later,314,5,Last artist,30852,35392,0,False,False
+sensitivity_later,314,5,Item cosine,30852,35392,0,False,False
+sensitivity_later,314,5,Markov,30852,35392,0,False,False
+sensitivity_later,314,5,Audio similarity,30852,30829,0,False,False
+sensitivity_later,314,5,History,30852,35392,0,False,False
+sensitivity_later,314,5,History + artist,30852,34093,0,False,False
+sensitivity_later,314,5,History + artist + audio,30852,30543,0,False,False
+sensitivity_later,970,5,Popularity,6333,31809,0,False,False
+sensitivity_later,970,5,Last artist,6333,31810,0,False,False
+sensitivity_later,970,5,Item cosine,6333,31809,0,False,False
+sensitivity_later,970,5,Markov,6333,31809,0,False,False
+sensitivity_later,970,5,Audio similarity,6333,6987,0,False,False
+sensitivity_later,970,5,History,6333,31810,0,False,False
+sensitivity_later,970,5,History + artist,6333,31306,0,False,False
+sensitivity_later,970,5,History + artist + audio,6333,7602,0,False,False
+sensitivity_later,547,5,Popularity,26480,34768,0,False,False
+sensitivity_later,547,5,Last artist,26480,34768,0,False,False
+sensitivity_later,547,5,Item cosine,26480,34768,0,False,False
+sensitivity_later,547,5,Markov,26480,34768,0,False,False
+sensitivity_later,547,5,Audio similarity,26480,5091,0,False,False
+sensitivity_later,547,5,History,26480,34769,0,False,False
+sensitivity_later,547,5,History + artist,26480,33380,0,False,False
+sensitivity_later,547,5,History + artist + audio,26480,5397,0,False,False
+sensitivity_later,333,5,Popularity,26175,34730,0,False,False
+sensitivity_later,333,5,Last artist,26175,34734,0,False,False
+sensitivity_later,333,5,Item cosine,26175,34730,0,False,False
+sensitivity_later,333,5,Markov,26175,34730,0,False,False
+sensitivity_later,333,5,Audio similarity,26175,4369,0,False,False
+sensitivity_later,333,5,History,26175,34733,0,False,False
+sensitivity_later,333,5,History + artist,26175,141,0,False,False
+sensitivity_later,333,5,History + artist + audio,26175,100,0,False,False
+sensitivity_later,182,5,Popularity,20506,2178,4,False,False
+sensitivity_later,182,5,Last artist,20506,2206,4,False,False
+sensitivity_later,182,5,Item cosine,20506,2951,4,False,False
+sensitivity_later,182,5,Markov,20506,2188,4,False,False
+sensitivity_later,182,5,Audio similarity,20506,3911,4,False,False
+sensitivity_later,182,5,History,20506,3157,4,False,False
+sensitivity_later,182,5,History + artist,20506,4839,4,False,False
+sensitivity_later,182,5,History + artist + audio,20506,3540,4,False,False
+sensitivity_later,49,5,Popularity,688,30950,0,True,False
+sensitivity_later,49,5,Last artist,688,29,0,True,False
+sensitivity_later,49,5,Item cosine,688,30950,0,True,False
+sensitivity_later,49,5,Markov,688,30950,0,True,False
+sensitivity_later,49,5,Audio similarity,688,33098,0,True,False
+sensitivity_later,49,5,History,688,30950,0,True,False
+sensitivity_later,49,5,History + artist,688,31,0,True,False
+sensitivity_later,49,5,History + artist + audio,688,140,0,True,False
+sensitivity_later,518,5,Popularity,24509,6261,2,False,False
+sensitivity_later,518,5,Last artist,24509,6267,2,False,False
+sensitivity_later,518,5,Item cosine,24509,6801,2,False,False
+sensitivity_later,518,5,Markov,24509,6262,2,False,False
+sensitivity_later,518,5,Audio similarity,24509,646,2,False,False
+sensitivity_later,518,5,History,24509,6801,2,False,False
+sensitivity_later,518,5,History + artist,24509,8015,2,False,False
+sensitivity_later,518,5,History + artist + audio,24509,1816,2,False,False
+sensitivity_later,102,5,Popularity,26804,360,11,False,False
+sensitivity_later,102,5,Last artist,26804,374,11,False,False
+sensitivity_later,102,5,Item cosine,26804,45,11,False,False
+sensitivity_later,102,5,Markov,26804,363,11,False,False
+sensitivity_later,102,5,Audio similarity,26804,24271,11,False,False
+sensitivity_later,102,5,History,26804,103,11,False,False
+sensitivity_later,102,5,History + artist,26804,76,11,False,False
+sensitivity_later,102,5,History + artist + audio,26804,138,11,False,False
+sensitivity_later,687,5,Popularity,31931,35547,0,False,False
+sensitivity_later,687,5,Last artist,31931,35547,0,False,False
+sensitivity_later,687,5,Item cosine,31931,35547,0,False,False
+sensitivity_later,687,5,Markov,31931,35547,0,False,False
+sensitivity_later,687,5,Audio similarity,31931,4506,0,False,False
+sensitivity_later,687,5,History,31931,35547,0,False,False
+sensitivity_later,687,5,History + artist,31931,32651,0,False,False
+sensitivity_later,687,5,History + artist + audio,31931,3013,0,False,False
+sensitivity_later,651,5,Popularity,8976,4759,2,False,False
+sensitivity_later,651,5,Last artist,8976,4760,2,False,False
+sensitivity_later,651,5,Item cosine,8976,5433,2,False,False
+sensitivity_later,651,5,Markov,8976,4759,2,False,False
+sensitivity_later,651,5,Audio similarity,8976,22882,2,False,False
+sensitivity_later,651,5,History,8976,5435,2,False,False
+sensitivity_later,651,5,History + artist,8976,6181,2,False,False
+sensitivity_later,651,5,History + artist + audio,8976,15814,2,False,False
+sensitivity_later,41,5,Popularity,13798,16391,1,False,False
+sensitivity_later,41,5,Last artist,13798,16406,1,False,False
+sensitivity_later,41,5,Item cosine,13798,16896,1,False,False
+sensitivity_later,41,5,Markov,13798,16391,1,False,False
+sensitivity_later,41,5,Audio similarity,13798,9001,1,False,False
+sensitivity_later,41,5,History,13798,16896,1,False,False
+sensitivity_later,41,5,History + artist,13798,25530,1,False,False
+sensitivity_later,41,5,History + artist + audio,13798,10818,1,False,False
+sensitivity_later,553,5,Popularity,12801,78,18,False,False
+sensitivity_later,553,5,Last artist,12801,87,18,False,False
+sensitivity_later,553,5,Item cosine,12801,922,18,False,False
+sensitivity_later,553,5,Markov,12801,85,18,False,False
+sensitivity_later,553,5,Audio similarity,12801,3222,18,False,False
+sensitivity_later,553,5,History,12801,1089,18,False,False
+sensitivity_later,553,5,History + artist,12801,1912,18,False,False
+sensitivity_later,553,5,History + artist + audio,12801,1051,18,False,False
+sensitivity_later,366,5,Popularity,9329,32244,0,False,False
+sensitivity_later,366,5,Last artist,9329,32245,0,False,False
+sensitivity_later,366,5,Item cosine,9329,32244,0,False,False
+sensitivity_later,366,5,Markov,9329,32244,0,False,False
+sensitivity_later,366,5,Audio similarity,9329,3373,0,False,False
+sensitivity_later,366,5,History,9329,32246,0,False,False
+sensitivity_later,366,5,History + artist,9329,35689,0,False,False
+sensitivity_later,366,5,History + artist + audio,9329,5953,0,False,False
+sensitivity_later,534,5,Popularity,35772,309,12,True,False
+sensitivity_later,534,5,Last artist,35772,3,12,True,False
+sensitivity_later,534,5,Item cosine,35772,270,12,True,False
+sensitivity_later,534,5,Markov,35772,313,12,True,False
+sensitivity_later,534,5,Audio similarity,35772,6756,12,True,False
+sensitivity_later,534,5,History,35772,238,12,True,False
+sensitivity_later,534,5,History + artist,35772,2,12,True,False
+sensitivity_later,534,5,History + artist + audio,35772,2,12,True,False
+sensitivity_later,275,5,Popularity,34134,1012,7,False,False
+sensitivity_later,275,5,Last artist,34134,1016,7,False,False
+sensitivity_later,275,5,Item cosine,34134,1401,7,False,False
+sensitivity_later,275,5,Markov,34134,1013,7,False,False
+sensitivity_later,275,5,Audio similarity,34134,15891,7,False,False
+sensitivity_later,275,5,History,34134,1405,7,False,False
+sensitivity_later,275,5,History + artist,34134,453,7,False,False
+sensitivity_later,275,5,History + artist + audio,34134,707,7,False,False
+sensitivity_later,675,5,Popularity,34628,29838,1,False,False
+sensitivity_later,675,5,Last artist,34628,29839,1,False,False
+sensitivity_later,675,5,Item cosine,34628,110,1,False,False
+sensitivity_later,675,5,Markov,34628,29838,1,False,False
+sensitivity_later,675,5,Audio similarity,34628,27765,1,False,False
+sensitivity_later,675,5,History,34628,116,1,False,False
+sensitivity_later,675,5,History + artist,34628,91,1,False,False
+sensitivity_later,675,5,History + artist + audio,34628,146,1,False,False
+sensitivity_later,832,5,Popularity,19610,33769,0,False,False
+sensitivity_later,832,5,Last artist,19610,33771,0,False,False
+sensitivity_later,832,5,Item cosine,19610,33769,0,False,False
+sensitivity_later,832,5,Markov,19610,33769,0,False,False
+sensitivity_later,832,5,Audio similarity,19610,3404,0,False,False
+sensitivity_later,832,5,History,19610,33771,0,False,False
+sensitivity_later,832,5,History + artist,19610,34667,0,False,False
+sensitivity_later,832,5,History + artist + audio,19610,6679,0,False,False
+sensitivity_later,303,5,Popularity,15990,430,10,False,False
+sensitivity_later,303,5,Last artist,15990,445,10,False,False
+sensitivity_later,303,5,Item cosine,15990,65,10,False,False
+sensitivity_later,303,5,Markov,15990,441,10,False,False
+sensitivity_later,303,5,Audio similarity,15990,9286,10,False,False
+sensitivity_later,303,5,History,15990,70,10,False,False
+sensitivity_later,303,5,History + artist,15990,134,10,False,False
+sensitivity_later,303,5,History + artist + audio,15990,178,10,False,False
+sensitivity_later,113,5,Popularity,21924,34120,0,False,False
+sensitivity_later,113,5,Last artist,21924,34120,0,False,False
+sensitivity_later,113,5,Item cosine,21924,34120,0,False,False
+sensitivity_later,113,5,Markov,21924,34120,0,False,False
+sensitivity_later,113,5,Audio similarity,21924,6296,0,False,False
+sensitivity_later,113,5,History,21924,34120,0,False,False
+sensitivity_later,113,5,History + artist,21924,32150,0,False,False
+sensitivity_later,113,5,History + artist + audio,21924,6173,0,False,False
+sensitivity_later,749,5,Popularity,21343,577,9,False,False
+sensitivity_later,749,5,Last artist,21343,606,9,False,False
+sensitivity_later,749,5,Item cosine,21343,784,9,False,False
+sensitivity_later,749,5,Markov,21343,588,9,False,False
+sensitivity_later,749,5,Audio similarity,21343,10254,9,False,False
+sensitivity_later,749,5,History,21343,106,9,False,False
+sensitivity_later,749,5,History + artist,21343,220,9,False,False
+sensitivity_later,749,5,History + artist + audio,21343,137,9,False,False
+sensitivity_later,908,5,Popularity,27524,105,17,False,False
+sensitivity_later,908,5,Last artist,27524,107,17,False,False
+sensitivity_later,908,5,Item cosine,27524,292,17,False,False
+sensitivity_later,908,5,Markov,27524,117,17,False,False
+sensitivity_later,908,5,Audio similarity,27524,4773,17,False,False
+sensitivity_later,908,5,History,27524,294,17,False,False
+sensitivity_later,908,5,History + artist,27524,340,17,False,False
+sensitivity_later,908,5,History + artist + audio,27524,411,17,False,False
+sensitivity_later,437,5,Popularity,22678,34239,0,False,False
+sensitivity_later,437,5,Last artist,22678,34243,0,False,False
+sensitivity_later,437,5,Item cosine,22678,34239,0,False,False
+sensitivity_later,437,5,Markov,22678,34239,0,False,False
+sensitivity_later,437,5,Audio similarity,22678,2501,0,False,False
+sensitivity_later,437,5,History,22678,34240,0,False,False
+sensitivity_later,437,5,History + artist,22678,1217,0,False,False
+sensitivity_later,437,5,History + artist + audio,22678,492,0,False,False
+sensitivity_later,491,5,Popularity,31375,479,10,False,False
+sensitivity_later,491,5,Last artist,31375,490,10,False,False
+sensitivity_later,491,5,Item cosine,31375,514,10,False,False
+sensitivity_later,491,5,Markov,31375,479,10,False,False
+sensitivity_later,491,5,Audio similarity,31375,4556,10,False,False
+sensitivity_later,491,5,History,31375,518,10,False,False
+sensitivity_later,491,5,History + artist,31375,756,10,False,False
+sensitivity_later,491,5,History + artist + audio,31375,913,10,False,False
+sensitivity_later,526,5,Popularity,23580,22724,1,False,False
+sensitivity_later,526,5,Last artist,23580,22724,1,False,False
+sensitivity_later,526,5,Item cosine,23580,22965,1,False,False
+sensitivity_later,526,5,Markov,23580,22724,1,False,False
+sensitivity_later,526,5,Audio similarity,23580,26061,1,False,False
+sensitivity_later,526,5,History,23580,22965,1,False,False
+sensitivity_later,526,5,History + artist,23580,3452,1,False,False
+sensitivity_later,526,5,History + artist + audio,23580,11470,1,False,False
+sensitivity_later,141,5,Popularity,31001,130,16,False,False
+sensitivity_later,141,5,Last artist,31001,131,16,False,False
+sensitivity_later,141,5,Item cosine,31001,561,16,False,False
+sensitivity_later,141,5,Markov,31001,132,16,False,False
+sensitivity_later,141,5,Audio similarity,31001,1676,16,False,False
+sensitivity_later,141,5,History,31001,562,16,False,False
+sensitivity_later,141,5,History + artist,31001,24,16,False,False
+sensitivity_later,141,5,History + artist + audio,31001,17,16,False,False
+sensitivity_later,706,5,Popularity,2495,814,7,False,False
+sensitivity_later,706,5,Last artist,2495,843,7,False,False
+sensitivity_later,706,5,Item cosine,2495,93,7,False,False
+sensitivity_later,706,5,Markov,2495,817,7,False,False
+sensitivity_later,706,5,Audio similarity,2495,11276,7,False,False
+sensitivity_later,706,5,History,2495,26,7,False,False
+sensitivity_later,706,5,History + artist,2495,40,7,False,False
+sensitivity_later,706,5,History + artist + audio,2495,37,7,False,False
+sensitivity_later,548,5,Popularity,3184,818,7,False,False
+sensitivity_later,548,5,Last artist,3184,863,7,False,False
+sensitivity_later,548,5,Item cosine,3184,1676,7,False,False
+sensitivity_later,548,5,Markov,3184,829,7,False,False
+sensitivity_later,548,5,Audio similarity,3184,12741,7,False,False
+sensitivity_later,548,5,History,3184,1606,7,False,False
+sensitivity_later,548,5,History + artist,3184,882,7,False,False
+sensitivity_later,548,5,History + artist + audio,3184,702,7,False,False
+sensitivity_later,609,5,Popularity,8621,862,7,False,False
+sensitivity_later,609,5,Last artist,8621,867,7,False,False
+sensitivity_later,609,5,Item cosine,8621,2237,7,False,False
+sensitivity_later,609,5,Markov,8621,867,7,False,False
+sensitivity_later,609,5,Audio similarity,8621,7772,7,False,False
+sensitivity_later,609,5,History,8621,2266,7,False,False
+sensitivity_later,609,5,History + artist,8621,643,7,False,False
+sensitivity_later,609,5,History + artist + audio,8621,481,7,False,False
+sensitivity_later,961,5,Popularity,8274,2829,3,False,False
+sensitivity_later,961,5,Last artist,8274,2843,3,False,False
+sensitivity_later,961,5,Item cosine,8274,5148,3,False,False
+sensitivity_later,961,5,Markov,8274,2834,3,False,False
+sensitivity_later,961,5,Audio similarity,8274,6339,3,False,False
+sensitivity_later,961,5,History,8274,5148,3,False,False
+sensitivity_later,961,5,History + artist,8274,2032,3,False,False
+sensitivity_later,961,5,History + artist + audio,8274,1329,3,False,False
+sensitivity_later,973,5,Popularity,14535,32991,0,False,False
+sensitivity_later,973,5,Last artist,14535,32992,0,False,False
+sensitivity_later,973,5,Item cosine,14535,32991,0,False,False
+sensitivity_later,973,5,Markov,14535,32991,0,False,False
+sensitivity_later,973,5,Audio similarity,14535,6283,0,False,False
+sensitivity_later,973,5,History,14535,32995,0,False,False
+sensitivity_later,973,5,History + artist,14535,35575,0,False,False
+sensitivity_later,973,5,History + artist + audio,14535,11117,0,False,False

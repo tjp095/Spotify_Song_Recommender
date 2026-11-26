@@ -1,0 +1,46 @@
+model,feature,standardized_coefficient
+History,log_track_support,-0.16663376986980438
+History,cosine_mean,0.7042175531387329
+History,cosine_max,0.0219116248190403
+History,cosine_last,0.09512505680322647
+History,log_markov_last,0.09611905366182327
+History,log_markov_mean,0.2378138154745102
+History,repeat_fraction,0.045982059091329575
+History + artist,log_track_support,0.19595372676849365
+History + artist,cosine_mean,0.5454460382461548
+History + artist,cosine_max,0.044186126440763474
+History + artist,cosine_last,0.041486430913209915
+History + artist,log_markov_last,-0.0017527980962768197
+History + artist,log_markov_mean,-0.03811447322368622
+History + artist,repeat_fraction,-0.03740831837058067
+History + artist,same_last_artist,0.3941832184791565
+History + artist,history_artist_fraction,1.0347964763641357
+History + artist,log_artist_support,-0.3656260669231415
+History + artist,log_artist_markov_last,-0.008136539719998837
+History + artist,log_artist_markov_mean,0.6543911099433899
+History + artist + audio,log_track_support,0.16384656727313995
+History + artist + audio,cosine_mean,0.4713413119316101
+History + artist + audio,cosine_max,0.03431808203458786
+History + artist + audio,cosine_last,0.039448633790016174
+History + artist + audio,log_markov_last,0.011992673389613628
+History + artist + audio,log_markov_mean,0.009006939828395844
+History + artist + audio,repeat_fraction,-0.04834728315472603
+History + artist + audio,same_last_artist,0.3704500198364258
+History + artist + audio,history_artist_fraction,0.8991162180900574
+History + artist + audio,log_artist_support,-0.3785856068134308
+History + artist + audio,log_artist_markov_last,0.021445080637931824
+History + artist + audio,log_artist_markov_mean,0.5897852778434753
+History + artist + audio,audio_cosine_last,0.17225158214569092
+History + artist + audio,audio_cosine_centroid,0.5169851183891296
+History + artist + audio,audio_distance_last,0.551133394241333
+History + artist + audio,audio_distance_centroid,-0.4189431965351105
+History + artist + audio,audio_last_abs_danceability,-0.15982703864574432
+History + artist + audio,audio_last_abs_energy,-0.10587824881076813
+History + artist + audio,audio_last_abs_loudness,-0.12764795124530792
+History + artist + audio,audio_last_abs_speechiness,-0.2002573311328888
+History + artist + audio,audio_last_abs_acousticness,-0.06732544302940369
+History + artist + audio,audio_last_abs_instrumentalness,-0.15640395879745483
+History + artist + audio,audio_last_abs_liveness,-0.08113843202590942
+History + artist + audio,audio_last_abs_valence,-0.1241949275135994
+History + artist + audio,audio_last_abs_tempo,-0.03957880288362503
+History + artist + audio,audio_last_abs_duration_ms,-0.17416612803936005
