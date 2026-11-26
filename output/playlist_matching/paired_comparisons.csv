@@ -1,0 +1,4 @@
+first,second,difference,ci_low,ci_high,playlists,bootstrap_draws
+Logistic: audio + artist,Random (expected),0.247,0.215,0.278,100,10000
+Logistic: audio + artist,Audio distance,0.059,0.034,0.085,100,10000
+Logistic: audio + artist,Logistic: audio,0.048,0.027999999999999997,0.06999999999999999,100,10000

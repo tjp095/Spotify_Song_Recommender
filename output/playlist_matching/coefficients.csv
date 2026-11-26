@@ -1,0 +1,24 @@
+model,feature,coefficient
+Logistic: audio,closeness_danceability,0.4031297434337894
+Logistic: audio,closeness_energy,0.32048195159852316
+Logistic: audio,closeness_loudness,0.3025962561527661
+Logistic: audio,closeness_speechiness,0.26787171890429834
+Logistic: audio,closeness_acousticness,0.34032049693098665
+Logistic: audio,closeness_instrumentalness,0.2814153538293439
+Logistic: audio,closeness_liveness,-0.02207772504780492
+Logistic: audio,closeness_valence,0.32749862585351713
+Logistic: audio,closeness_tempo,0.014390382918862698
+Logistic: audio,closeness_duration_ms,0.12977534248084613
+Logistic: audio,nearest_audio,0.4653398976211379
+Logistic: audio + artist,closeness_danceability,0.3665008400422084
+Logistic: audio + artist,closeness_energy,0.3144010395705807
+Logistic: audio + artist,closeness_loudness,0.2772012663716787
+Logistic: audio + artist,closeness_speechiness,0.2535934797265518
+Logistic: audio + artist,closeness_acousticness,0.30597006129053544
+Logistic: audio + artist,closeness_instrumentalness,0.25596566573725676
+Logistic: audio + artist,closeness_liveness,-0.018846473927105777
+Logistic: audio + artist,closeness_valence,0.3310975155678738
+Logistic: audio + artist,closeness_tempo,0.03260853026722984
+Logistic: audio + artist,closeness_duration_ms,0.1237418588453543
+Logistic: audio + artist,nearest_audio,0.41900959960358775
+Logistic: audio + artist,artist_fraction,1.7195567014306665

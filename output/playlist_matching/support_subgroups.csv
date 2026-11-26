@@ -1,0 +1,13 @@
+model,member_seen_in_training,accuracy,playlists_with_queries
+Artist overlap,False,0.590742194313623,91
+Artist overlap,True,0.5803465889902061,94
+Audio distance,False,0.7256105006105006,91
+Audio distance,True,0.6781661600810537,94
+Logistic: audio,False,0.7330324437467293,91
+Logistic: audio,True,0.7148936170212765,94
+Logistic: audio + artist,False,0.7843711843711844,91
+Logistic: audio + artist,True,0.7462428233704829,94
+Popularity,False,0.07489752311180882,91
+Popularity,True,0.8363137453562987,94
+Random (expected),False,0.5,91
+Random (expected),True,0.5,94

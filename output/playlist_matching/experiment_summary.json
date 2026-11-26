@@ -1,0 +1,79 @@
+{
+  "data": {
+    "rows": 66263,
+    "unique_memberships": 65409,
+    "tracks": 36203,
+    "playlists": 1000,
+    "artists": 9963,
+    "repeated_memberships_removed": 854,
+    "singleton_tracks": 26901,
+    "eligible_playlists": {
+      "train": 795,
+      "validation": 98,
+      "test": 100
+    },
+    "split_playlists": {
+      "train": 800,
+      "validation": 100,
+      "test": 100
+    },
+    "dataset_sha256": "11533e4997668e7791c093bbcc63fb20ed820e8c4bbd80b7026fedaf1fb8d946"
+  },
+  "selection": {
+    "models": {
+      "Logistic: audio": {
+        "C": 0.01,
+        "validation_accuracy": 0.7459183673469387
+      },
+      "Logistic: audio + artist": {
+        "C": 0.01,
+        "validation_accuracy": 0.7795918367346939
+      }
+    },
+    "primary_model": "Logistic: audio + artist",
+    "seed": 42,
+    "context_size": 5,
+    "queries_per_playlist": 10,
+    "negative_sampling": "uniform distinct track outside the complete target playlist"
+  },
+  "query_counts": {
+    "train": 7950,
+    "validation": 980,
+    "test": 1000
+  },
+  "comparisons": [
+    {
+      "first": "Logistic: audio + artist",
+      "second": "Random (expected)",
+      "difference": 0.247,
+      "ci_low": 0.215,
+      "ci_high": 0.278,
+      "playlists": 100,
+      "bootstrap_draws": 10000
+    },
+    {
+      "first": "Logistic: audio + artist",
+      "second": "Audio distance",
+      "difference": 0.059,
+      "ci_low": 0.034,
+      "ci_high": 0.085,
+      "playlists": 100,
+      "bootstrap_draws": 10000
+    },
+    {
+      "first": "Logistic: audio + artist",
+      "second": "Logistic: audio",
+      "difference": 0.048,
+      "ci_low": 0.027999999999999997,
+      "ci_high": 0.06999999999999999,
+      "playlists": 100,
+      "bootstrap_draws": 10000
+    }
+  ],
+  "environment": {
+    "python": "3.14.4",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1"
+  }
+}

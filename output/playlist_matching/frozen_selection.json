@@ -1,0 +1,17 @@
+{
+  "models": {
+    "Logistic: audio": {
+      "C": 0.01,
+      "validation_accuracy": 0.7459183673469387
+    },
+    "Logistic: audio + artist": {
+      "C": 0.01,
+      "validation_accuracy": 0.7795918367346939
+    }
+  },
+  "primary_model": "Logistic: audio + artist",
+  "seed": 42,
+  "context_size": 5,
+  "queries_per_playlist": 10,
+  "negative_sampling": "uniform distinct track outside the complete target playlist"
+}

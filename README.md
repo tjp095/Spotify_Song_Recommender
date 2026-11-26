@@ -1,59 +1,69 @@
-# What comes after five songs?
+﻿# Which song fits this playlist?
 
-Predict the immediate sixth track from five consecutive tracks in an ordered Spotify
-playlist. The current deliverable is **`assignment_2.ipynb`**, with all five assignment
-sections: task, data, modeling, evaluation, and related work/findings.
+Given five songs from a playlist, choose which of two candidate songs also belongs
+to that playlist. One candidate is a hidden member, and one is a uniformly sampled
+track absent from the complete playlist. Random guessing has expected accuracy 50%.
 
-The central comparison adds audio descriptors to a logistic ranker that already uses
-history and artist compatibility. Baselines include random ranking in expectation,
-popularity, last artist, item cosine, Markov transitions, and audio similarity. All
-evaluation queries rank the full catalogue; previously played songs remain eligible.
+The current deliverable is **`assignment_2.ipynb`**. The matching copy
+`cse158_assignment2.ipynb` contains the same executed notebook. Both contain the
+complete implementation and five sections: task, data, modeling, evaluation, and
+findings with related work.
 
 ## Run
 
 ```powershell
-python -m venv .venv
-./.venv/Scripts/python.exe -m pip install -r requirements.txt
-./.venv/Scripts/python.exe continuation_experiment.py
-./.venv/Scripts/python.exe verify_continuation.py
+./.venv/Scripts/python.exe build_matching_notebook.py
+./.venv/Scripts/python.exe verify_matching.py
 ```
 
-To rebuild and execute the documented notebook:
+The builder executes the notebook and its experiment. To run only the experiment:
 
 ```powershell
-./.venv/Scripts/python.exe build_continuation_notebook.py
+./.venv/Scripts/python.exe matching_experiment.py
 ```
 
-Run from the repository root. The notebook also contains the implementation and can
-be run top to bottom without importing the experiment module. Dataset discovery checks
-`SONGS620_PATH`, `songs620.csv` beside the notebook, `data/songs620.csv`, and a Desktop
-copy, in that order. A set but invalid environment override produces an explicit error.
+Install `requirements.txt` if needed. Run from the repository root. The CSV is found
+via `SONGS620_PATH`, `songs620.csv` beside the notebook, or `data/songs620.csv`.
+An invalid explicit override raises an error.
 
 ## Protocol
 
-- Seed-42 permutation of sorted playlist IDs: 800 train, 100 validation, 100 test.
-- All training five-track windows predict their immediate successor; primary validation
-  and test use one opening query per eligible playlist (98 validation, 100 test).
-- Four playlist folds cross-fit relational training features to exclude the example's
-  own playlist. Final support statistics use only the 800 training playlists.
-- Same 1:10 uniform pseudo-negative samples and playlist weights for all learned models.
-- C selected from a fixed grid using validation HR@10, then frozen before test evaluation.
-- Primary paired audio comparison: 10,000-playlist bootstrap interval and exact paired test.
-- Frozen-model order and later-position sensitivity checks are secondary diagnostics.
+- Fixed seed-42 split of whole playlist IDs: 800 training, 100 validation, 100 test.
+- Deduplicate playlist-track memberships; require six distinct songs for eligibility.
+- Ten sampled queries per eligible playlist, with five context songs and one hidden
+  member sampled without replacement. Candidate A/B placement is randomized.
+- Sample the nonmember uniformly from distinct catalogue tracks outside the entire
+  playlist. Static catalogue metadata is assumed available for all candidates.
+- Audio scaling uses distinct training tracks. Popularity uses training playlists only.
+- Compare expected random guessing, popularity, artist overlap, audio distance,
+  audio logistic regression, and audio-plus-artist logistic regression.
+- Fit learned models on candidate feature differences with mirrored training pairs
+  and no intercept, enforcing symmetric predictions when the candidates swap.
+- Select regularization and the primary learned model on validation accuracy.
+- Freeze selection before scoring test; report accuracy with fair expected tie credit,
+  10,000-draw playlist-bootstrap intervals, paired comparisons, and support subgroups.
 
-The dataset has no timestamps or listener IDs. The known static catalogue and
-curator ordering define the prediction setting; satisfaction and chronological
-generalization are not observed. Exact provenance of the enriched local CSV is unverified.
+## Measured result
 
-## Outputs
+The validation-selected audio-plus-artist logistic model achieves **74.7% accuracy**
+(95% playlist-bootstrap interval: 71.5%-77.8%) across 1,000 queries from 100 held-out
+playlists. Audio distance achieves 68.8%; random guessing has expected accuracy 50%.
+The paired gain over audio distance is 5.9 percentage points (interval: 3.4-8.5).
 
-Current outputs are in **`output/next_song/`**: manifests, query definitions, validation
-grid, selected configurations, coefficients, full-catalogue test ranks, top-ten lists,
-paired audio results, subgroup and sensitivity metrics, figures, and environment details.
-`requirements-lock.txt` records the local environment; `requirements.txt` lists the
-packages needed for the experiment and notebook.
+## Outputs and interpretation
 
-No new HTML export is generated. Existing `workbook.html`, `experiment.py`,
-`build_notebook.py`, `verify_experiment.py`, and top-level `output/` results belong to
-the earlier **random missing-track** task, not this immediate-successor experiment.
-Its notebook is preserved at `output/legacy_missing_track_assignment.ipynb`.
+Current results are in **`output/playlist_matching/`**: split assignments, catalogue,
+query pairs, validation grid, frozen selections, coefficients, per-query test results,
+accuracy tables, paired comparisons, subgroup summaries, figure, and experiment summary
+with dataset checksum and package versions.
+
+This accuracy measures two-candidate matching against a random nonmember. It does not
+measure full-catalogue retrieval, immediate-next-song prediction, or user satisfaction.
+No timestamps or listener IDs are supplied; exact local CSV provenance is unverified.
+
+Earlier continuation code (`continuation_experiment.py`, `build_continuation_notebook.py`,
+`verify_continuation.py`) and `output/next_song/` remain as historical experiments.
+The older random-missing-track scripts, top-level `output/` results, and `workbook.html`
+also describe earlier tasks. They are not the current notebook's results. Running an
+older notebook builder would replace `assignment_2.ipynb`; use the matching builder above.
+No HTML export is generated by the current builder.

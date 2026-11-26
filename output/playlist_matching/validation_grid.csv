@@ -1,0 +1,9 @@
+model,C,validation_accuracy
+Logistic: audio,0.01,0.7459183673469387
+Logistic: audio,0.1,0.7438775510204082
+Logistic: audio,1.0,0.7448979591836735
+Logistic: audio,10.0,0.7448979591836735
+Logistic: audio + artist,0.01,0.7795918367346939
+Logistic: audio + artist,0.1,0.7785714285714286
+Logistic: audio + artist,1.0,0.7785714285714286
+Logistic: audio + artist,10.0,0.7785714285714286
